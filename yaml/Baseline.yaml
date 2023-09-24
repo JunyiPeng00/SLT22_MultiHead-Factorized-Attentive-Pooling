@@ -1,0 +1,32 @@
+max_frames: 300
+max_epoch: 15
+batch_size: 120
+margin: 0.2
+
+eval_frames: 400
+augment: True
+
+## Training details
+trainfunc: aamsoftmax
+
+scale: 30
+
+lr_decay: 0.95
+
+pretrained_model_path: /mnt/proj3/open-24-5/pengjy_new/WavLM/Pretrained_model/WavLM-Base+.pt
+weight_finetuning_reg: 0.01
+LLRD_factor: 1.0
+LR_Transformer: 2e-5
+LR_MHFA: 5e-3
+
+## Loss functions
+nClasses: 5994
+
+## Load and save
+save_path: exp/Baseline
+
+## Model definition
+model: Baseline.Spk_Encoder
+
+nOut: 256
+port: 6754

@@ -1,0 +1,30 @@
+max_frames: 600
+max_epoch: 19
+batch_size: 40
+margin: 0.5
+
+eval_frames: 400
+augment: True
+
+## Training details
+trainfunc: aamsoftmax
+
+scale: 30
+
+lr: 5e-4
+lr_decay: 0.95
+
+weight_decay: 0
+
+## Loss functions
+nClasses: 5994
+
+adapter_dim: 128
+## Load and save
+save_path: exp/Baseline
+
+## Model definition
+model: Baseline.Spk_Encoder
+
+nOut: 256
+port: 6754
