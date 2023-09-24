@@ -9,7 +9,7 @@ This repository contains the Pytorch code of our paper titled as [An attention-b
 - Pls follow [Data preparation](https://github.com/clovaai/voxceleb_trainer#data-preparation) for voxceleb, musan, and RIR datasets.
 - Download the pre-trained model (e.g. [WavLM Base+](https://github.com/microsoft/unilm/tree/master/wavlm)) from huggingface or its official website.
 - Modify the corresponding `train_list`, `test_list`, `train_path`, `test_path`, `musan_path`, `rir_path` in `trainSpeakerNet.py` and `trainSpeakerNet_Eval.py`, respectively.
-- Add absolute path to the pre-trained model to `pretrained_model_path` in `yaml/Baseline.yaml` and `yaml/Baseline_lm.yaml`
+- Add absolute path to the pre-trained model to `pretrained_model_path` in both `yaml/Baseline.yaml` and `yaml/Baseline_lm.yaml`
 
 ## Training and Testing
 
