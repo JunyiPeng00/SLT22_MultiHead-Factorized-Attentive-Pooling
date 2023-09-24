@@ -1,5 +1,5 @@
 max_frames: 600
-max_epoch: 19
+max_epoch: 15
 batch_size: 40
 margin: 0.5
 
@@ -14,12 +14,15 @@ scale: 30
 lr: 5e-4
 lr_decay: 0.95
 
-weight_decay: 0
+pretrained_model_path: /mnt/proj3/open-24-5/pengjy_new/WavLM/Pretrained_model/WavLM-Base+.pt
+weight_finetuning_reg: 0.01
+LLRD_factor: 1.0
+LR_Transformer: 2e-5
+LR_MHFA: 5e-3
 
 ## Loss functions
 nClasses: 5994
 
-adapter_dim: 128
 ## Load and save
 save_path: exp/Baseline
 
