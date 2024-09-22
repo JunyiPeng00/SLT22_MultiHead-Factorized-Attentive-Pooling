@@ -1,6 +1,5 @@
 # Wespeaker implementation
-I re-wrote the whole system with wespeaker toolkit and achieved higher results, which can be found (here) 
-[https://github.com/BUTSpeechFIT/wespeaker_ssl_public/tree/hubert/examples/voxceleb/v4]
+I re-wrote the whole system with wespeaker toolkit and achieved higher results, which can be found [here](https://github.com/BUTSpeechFIT/wespeaker_ssl_public/tree/hubert/examples/voxceleb/v4)
 
 
 # SLT22_MultiHead-Factorized-Attentive-Pooling
