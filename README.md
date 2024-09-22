@@ -1,3 +1,8 @@
+# Wespeaker implementation
+I re-wrote the whole system with wespeaker toolkit and achieved higher results, which can be found [here] 
+(https://github.com/BUTSpeechFIT/wespeaker_ssl_public/tree/hubert/examples/voxceleb/v4)
+
+
 # SLT22_MultiHead-Factorized-Attentive-Pooling
 
 This repository contains the Pytorch code of our paper titled as [An attention-based backend allowing efficient fine-tuning of transformer models for speaker verification](https://arxiv.org/abs/2210.01273). This implementation is based on[ vox_trainer](https://github.com/clovaai/voxceleb_trainer).
