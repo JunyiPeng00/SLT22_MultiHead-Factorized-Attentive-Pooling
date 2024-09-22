@@ -1,6 +1,9 @@
 # Wespeaker implementation
 I re-wrote the whole system with wespeaker toolkit and achieved higher results, which can be found [here](https://github.com/BUTSpeechFIT/wespeaker_ssl_public/tree/hubert/examples/voxceleb/v4)
-
+| Model | AS-Norm | LMFT | QMF | vox1-O-clean | vox1-E-clean | vox1-H-clean |
+|:------------------|:-------:|:---|:---:|:------------:|:------------:|:------------:|
+| WavLM Base Plus + MHFA            | √ | × | × | 0.750 | 0.716 | 1.442 |
+| WavLM Large + MHFA            | √ | × | × | 0.649 | 0.610 | 1.235 |
 
 # SLT22_MultiHead-Factorized-Attentive-Pooling
 
